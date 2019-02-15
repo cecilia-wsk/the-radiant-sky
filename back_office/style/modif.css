@@ -1,0 +1,113 @@
+/* bouton retour */
+
+.retour {
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid black;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    transition: border-radius .5s ease;
+}
+
+.retour:hover {
+    border-radius: 50%;
+}
+
+.retour svg {   
+    width: 25px; 
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 0;
+    left: 7px;
+}
+
+/* titre */
+
+.title-modif {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    left: calc(50% - 210px);
+    text-align: center;
+    padding: 18px 20px 15px 20px;
+    border: 1px double #333;
+    letter-spacing: 6px;
+    margin: 50px 0;
+}
+
+.title-modif svg:nth-of-type(1) {
+    padding-right: 17px;
+}
+
+
+/* titres des modifications */ 
+
+.title-main, .content-main, .title-legend, .content-legend {
+    font-size: 27px;
+    font-weight: bolder;
+    padding: 20px 0;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #3d4378;
+}
+
+.content-main, .content-legend {
+    color: #333333;
+}
+
+.title-legend, .content-legend {
+    font-style: italic;
+}
+
+.modifier-content textarea {
+    font-family: Avenir;
+    margin: 10px auto;
+    width: 60%;
+    display: block;
+    resize: none;
+    padding: 20px;
+    font-size: 100%;    
+    min-height: 70px;
+    border: 1px dashed #8d8e8e;
+}
+
+.modifier-content textarea:hover {
+    border: 1px dashed black;
+    transition: all 1s ease;
+}
+
+.submit {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 50px 0; 
+}
+
+.submit input {
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    transform: rotate(45deg);
+    transition: border-radius .5s ease;
+    background-color: transparent; 
+}
+
+.submit input:hover {
+    border-radius: 15%;
+}
+
+.submit svg {
+    position: absolute;
+    z-index: -5;
+    width: 25px;
+    transform: rotate(180deg);
+    top: 2px;
+    left: calc(50% - 12.5px);
+}

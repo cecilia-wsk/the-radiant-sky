@@ -1,0 +1,224 @@
+/* ANIMATION DU TITRE EN SVG */
+
+.path {
+    stroke-dasharray: 550;
+    stroke-dashoffset: 550;
+    animation: dash 10s ease forwards alternate;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* animation fusée */
+
+@keyframes shake {
+    0% {
+        transform: rotate(-3deg);
+    }
+    25% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(3deg);
+    }
+    75% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-3deg);
+    }
+}
+
+@keyframes lift-off {
+    15% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-490px);
+    }
+    80% {
+        transform:  translateY(-470px);
+    }
+    90% {
+        transform: translateY(-470px) rotate(10deg);
+        transform-origin: bottom;
+    }
+    95% {
+        transform: translateY(-470px) rotate(-10deg);
+        transform-origin: bottom;
+    }
+    100% {
+        transform: translateY(-470px) rotate(0deg);
+        transform-origin: bottom;
+    }
+}
+
+/* Début du CSS */
+
+body {
+	color: white;
+    overflow-x: hidden;
+}
+
+.container {
+    width: inherit;
+    height: inherit;
+    background-color: #26368A;
+    overflow: hidden;
+}
+
+.burger {
+	border-color:white;
+}
+
+#menu-blop {
+	fill: white;
+	opacity: 1;
+}
+
+.morph-shape {
+    transform: scale(0.4,0.4);	
+}
+
+.menu-links a, .menu-links li {
+	color: #26368A;
+	font-weight: bolder;
+}
+
+.screen-border {
+    background: white;
+    position: fixed;
+    z-index: 20;
+}
+
+.screen-border.screen-border-top {
+	width: 100%;
+    height: 15px;
+    left: 0;
+    top: 0;
+}
+
+.screen-border.screen-border-left {
+    width: 15px;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.screen-border.screen-border-right {
+    width: 15px;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
+.screen-border.screen-border-bottom {
+    width: 100%;
+    height: 15px;
+    left: 0;
+    bottom: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+.form {
+    position: absolute;
+    width: 80%;
+    left: 26%;
+    top: 16%;
+}
+
+.bg_form {
+    position: absolute;
+    z-index: -1;
+    width: 600px;
+    left: calc(29% - 300px);
+    opacity: 0;
+    transition: opacity 3s ease;
+}
+
+.etoiles {
+    opacity: 0;
+    transition: opacity 4s ease;
+    cursor: pointer;
+}
+
+.terre {
+    cursor: pointer;
+    transform: translateY(40px);
+}
+
+.inputs-form {
+    transition: opacity 1s ease;
+}
+
+.form label {
+    letter-spacing: 4px;
+    font-weight: lighter;
+    font-variant: small-caps;
+    font-size: 110%;
+}
+
+.form input, .form textarea {
+    letter-spacing: 3px;
+    font-weight: lighter;
+    display: block;
+    width: 60%;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.form input {
+    margin: 15px 0;
+}
+
+.form textarea {
+    margin-top: 15px;
+    height: 170px;
+}
+
+.button {
+    position: absolute;
+    bottom: -20%;
+    left: calc(29% - 22.5px);
+}
+
+.button-submit {
+    transition: transform 1s ease, opacity 3s ease;
+}
+
+.rocket.rocket-hover:hover {
+    animation: shake .2s ease infinite;
+}
+
+.message-recu {
+    opacity: 0;
+    transition: opacity 2s ease 1.5s;
+    width: 300px;
+    bottom: 12%;
+    left: calc(50% - 150px);
+    position: absolute;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+
+.title {
+    transition: margin-top 1s ease;
+}
+
+/* Pour le responsive : Tablet */
+@media only screen and (max-width: 780px) {
+    .title {
+        margin-top: 10%;
+    }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<svg class="svg" id="taurus" width="600px" height="608px" viewBox="0 0 1006 1020" xml:space="preserve">
+		<g class="lines">
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="594.768" y1="537" x2="451.505" y2="505.639"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="436.287" y1="528.317" x2="451.505" y2="505.639"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="436.287" y1="528.317" x2="422.648" y2="502.893"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="422.648" y1="502.893" x2="415.215" y2="478.593"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="358.718" y1="267.37" x2="414.687" y2="477.098"/>
+
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="480.229" y1="737.621" x2="441.956" y2="609.458"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="441.627" y1="608.745" x2="437.887" y2="529.386"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="452.375" y1="495.295" x2="459.83" y2="475.931"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="414.659" y1="477.971" x2="459.622" y2="475.395"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="478.278" y1="408.155" x2="459.622" y2="475.395"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="452.156" y1="494.789" x2="451.325" y2="504.228"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="470.389" y1="245.742" x2="478.633" y2="407.994"/>
+		</g>
+		<g class="etoiles">
+			<circle fill="#EAD200" stroke="#F5F5F5" stroke-miterlimit="10" cx="594.768" cy="537" r="6.157"/>
+			<circle fill="#EAD200" stroke="#F5F5F5" stroke-miterlimit="10" cx="451.505" cy="505.639" r="4.936"/>
+			<circle fill="#EAD200" stroke="#F5F5F5" stroke-miterlimit="10" cx="436.287" cy="528.317" r="4.936"/>
+			<circle fill="#EAD200" stroke="#F5F5F5" stroke-miterlimit="10" cx="422.648" cy="502.893" r="4.936"/>
+			<circle fill="#EAD200" stroke="#F5F5F5" stroke-miterlimit="10" cx="415.215" cy="478.593" r="6.157"/>
+			<circle fill="#EAD200" stroke="#F5F5F5" stroke-miterlimit="10" cx="358.471" cy="267.831" r="4.936"/>
+
+			<circle fill="#EAD200" stroke="#F5F5F5" stroke-miterlimit="10" cx="452.375" cy="495.295" r="4.237"/>
+			<circle fill="#EAD200" stroke="#F5F5F5" stroke-miterlimit="10" cx="441.819" cy="609.225" r="4.936"/>
+			<circle fill="#EAD200" stroke="#F5F5F5" stroke-miterlimit="10" cx="459.83" cy="475.931" r="4.936"/>
+			<circle fill="#EAD200" stroke="#F5F5F5" stroke-miterlimit="10" cx="478.758" cy="406.854" r="4.936"/>
+			<circle fill="#EAD200" stroke="#F5F5F5" stroke-miterlimit="10" cx="480" cy="738" r="4.936" />
+			<circle fill="#EAD200" stroke="#F5F5F5" stroke-miterlimit="10" cx="470.813" cy="246.19" r="4.936"/>
+		</g>
+	</svg>

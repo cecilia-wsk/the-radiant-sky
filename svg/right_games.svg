@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<svg class="right-icon-svg" height="100px" viewBox="0 0 100 100" xml:space="preserve">
+		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M96.282,76.282c0,3.708-3.006,6.713-6.713,6.713H10.316
+			c-3.708,0-6.713-3.006-6.713-6.713V21.832c0-3.708,3.006-6.713,6.713-6.713h79.252c3.708,0,6.713,3.005,6.713,6.713V76.282z"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="23.372" y1="17.692" x2="8.192" y2="15.463"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="18.809" y1="23.517" x2="3.603" y2="21.832"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="3.716" y1="77.501" x2="18.809" y2="60.17"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="10.316" y1="82.996" x2="23.372" y2="66.606"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="90.95" y1="15.463" x2="77.233" y2="17.692"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="96.282" y1="21.832" x2="81.795" y2="23.517"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="96.282" y1="76.282" x2="81.795" y2="60.17"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="89.569" y1="82.996" x2="77.233" y2="66.606"/>
+		<path id="move-right" fill="white" stroke="#000000" stroke-miterlimit="10" d="M81.795,61.769c0,2.671-2.043,4.837-4.562,4.837H23.372c-2.52,0-4.562-2.166-4.562-4.837V22.53c0-2.671,2.042-4.837,4.562-4.837h53.861c2.52,0,4.562,2.166,4.562,4.837V61.769z"/>
+		<g>
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="49.754" y1="42.15" x2="33.625" y2="42.15"/>
+			<polygon fill="#1D1D1B" points="47.465,47.54 49.754,42.15 47.465,36.759 60.24,42.15 	"/>
+		</g>
+	</svg>

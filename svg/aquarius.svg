@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<svg class="svg" id="aquarius" width="600px" height="608px" viewBox="0 0 1006 1020" xml:space="preserve">
+		<g class="lines">
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="357.665" y1="688.916" x2="295.27" y2="547.375"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="294.875" y1="547.628" x2="352.397" y2="488.53"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="352.073" y1="488.458" x2="352.69" y2="369.601"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="352.437" y1="369.205" x2="371.102" y2="356.987"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="372.146" y1="356.877" x2="402.483" y2="361.164"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="402.017" y1="361.741" x2="443.27" y2="322.528"/>					
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="458.691" y1="430.291" x2="443.089" y2="321.809"/>		
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="529.67" y1="486.344" x2="458.763" y2="429.966"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="498.853" y1="755.808" x2="529.332" y2="487.12"/>
+
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="743.454" y1="313.35" x2="581.09" y2="329.691"/>						
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="581.09" y1="329.691" x2="442.766" y2="321.737"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="437.756" y1="486.888" x2="459.34" y2="430.433"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="403.268" y1="554.105" x2="437.289" y2="487.464"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="404.431" y1="589.039" x2="403.773" y2="554.897"/>
+			<line class="path" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-miterlimit="10" x1="402.443" y1="676.998" x2="404.684" y2="589.437"/>
+		</g>
+		<g class="etoiles">
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="356" cy="687" r="4.183"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="296.092" cy="546.641" r="4.183"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="352.404" cy="488.532" r="4.183"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="352.048" cy="369.46" r="4.183"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="370.811" cy="357.423" r="4.184"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="402.37" cy="361.584" r="4.184"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="443.655" cy="323.305" r="5.218"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="459.78" cy="432.369" r="4.183"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="529.096" cy="485.877" r="5.218"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="498.65" cy="756.601" r="4.183"/>
+			
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="581.868" cy="329.719" r="5.218"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="403" cy="677" r="4.183"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="402.54" cy="553.424" r="4.183"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="404" cy="593" r="4.183"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="743.085" cy="313.374" r="6"/>
+			<circle fill="#EBD302" stroke="#F5F5F5" stroke-miterlimit="10" cx="437.618" cy="487.536" r="4.183"/>
+		</g>
+	</svg>

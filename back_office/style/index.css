@@ -1,0 +1,248 @@
+/******* INDEX *******/
+
+body {
+	height: 100%;
+	width: 100%;
+    overflow: hidden;
+}
+.title-container {
+	position: fixed;
+    left: calc(50% - 185px);
+	top: 12.5px;
+	letter-spacing: 6px;
+}
+
+.indication {
+	position: absolute;
+	left: calc(50% - 230.5px);
+	top: 80px;
+}
+
+.deconnexion {
+	position: fixed;
+    top: 40px;
+    right: 50px;
+}
+
+.deconnexion input {
+	position: relative;
+    z-index: 15;
+	cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid black;
+    background-color: transparent;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    transition: border-radius .5s ease;
+}
+
+.deconnexion input:hover {
+    border-radius: 50%;
+}
+
+.deconnexion svg {   
+    width: 29px; 
+    position: absolute;
+    top: -4px;
+    left: 9px;
+}
+
+.culture {
+	position: fixed;   
+    top: 105px;
+    right: 57.5px;
+}
+
+.egypte {
+	position: relative;
+	top: 15px;
+}
+
+.culture input {
+	position: absolute;
+    z-index: 5;
+	cursor: pointer;
+    width: 55px;
+    height: 55px;
+    border: 1.5px solid black;
+    background-color: transparent;
+    border-radius: 50%;
+    transform-origin: center;
+    transition: transform .5s ease, border-color .4s ease;
+}
+
+.grec input:hover {
+    transform: scale(1.1);
+    border-color: #26368a;
+}
+
+.egypte input:hover {
+    transform: scale(1.1);
+    border-color: #EBD302;
+}
+
+.culture svg {    
+    position: relative;
+	width: 37px;
+}
+
+.grec svg {
+    top: 10px;
+    left: 10px;
+}
+
+.egypte svg {
+    top: 3px;
+    left: 11.5px;
+    width: 33px;
+}
+
+.grec-current input {
+    border: 2px solid #26368a;
+}
+
+.grec-current svg {
+	width: 42px;
+	top: 11px;
+    left: 7.5px;
+}
+
+.grec-current svg path {
+	fill: #26368a;
+}
+
+.egypte-current input {
+    border: 2px solid #EBD302;
+}
+
+.egypte-current svg {
+	width: 42px;
+	top: 3px;
+    left: 7px;
+}
+
+.egypte-current svg path {
+	fill: #EBD302;
+}
+
+.langue {
+    position: fixed;  
+    top: 235px;
+    right: 57.5px;
+    cursor: pointer;
+}
+
+.langue input {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: none;
+    z-index: -5;
+    font-size: 80%;
+    position: absolute;
+    left: 39%;
+    cursor: pointer;
+    transform: translateY(-35px);
+    transition: transform 1s ease;
+}
+
+.en {
+    top: 66px;
+}
+
+.langue input:hover {
+    opacity: .5;
+}
+
+.current {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: lighter;
+    left: 21%;
+    top: 36%;
+    width: 45px;
+    height: 45px;
+    border: 1.5px solid black;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.current h3 {
+    margin-top: 15px;
+}
+
+.container {
+	height: inherit;
+	width: inherit;
+}
+
+.scene {
+	height: inherit;
+	width: 80%;
+    margin: auto;
+    top: 70px;
+}
+
+.slide {
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.slide.slide-current {
+    visibility: visible;
+}
+
+.constellation img {
+	width: 600px;
+}
+
+.container-dessin, .container-constellation, .container-circle {
+	position: fixed;
+	top: -29px;
+	left: calc(50% - 300px);
+}
+
+.nav-under {    
+    display: flex;
+    left: calc(50% - 165px);
+    bottom: calc(26% - 17px);
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav-prev {
+	transition: opacity .6s ease;
+}
+
+.title {
+	font-family: "Baron_Neue";
+    text-align: center;
+	letter-spacing: 5px;
+	font-size: 110%;
+	opacity: .8;
+    width: 140px;
+    display: none;
+}
+
+.title.title-current {
+	display: block;
+}
+
+.nav-under button {
+	padding: 0 40px;
+	transition:  all .5s ease; 
+}
+
+.nav-under button:hover {
+	opacity: .5;
+}
+
+.cursor {
+	position: fixed;
+	bottom: 65px;
+	left: calc(50% - 158px);
+}

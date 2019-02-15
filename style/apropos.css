@@ -1,0 +1,172 @@
+/* ANIMATION DU TITRE EN SVG */
+
+.path {
+    stroke-dasharray: 550;
+    stroke-dashoffset: 550;
+    animation: dash 10s ease forwards alternate;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+body {
+	color: white;
+}
+
+.container {
+	background-color: #26368A;
+}
+
+.burger {
+	border-color:white;
+}
+
+#menu-blop {
+	fill: #fff;
+	opacity: 1;
+}
+
+.morph-shape {
+    transform: scale(0.4,0.4);	
+}
+
+.menu-links a, .menu-links li {
+	color: #26368A;
+	font-weight: bolder;
+}
+
+.screen-border {
+    background: white;
+    position: fixed;
+    z-index: 20;
+}
+
+.screen-border.screen-border-top {
+	width: 100%;
+    height: 15px;
+    left: 0;
+    top: 0;
+}
+
+.screen-border.screen-border-left {
+    width: 15px;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.screen-border.screen-border-right {
+    width: 15px;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
+.screen-border.screen-border-bottom {
+    width: 100%;
+    height: 15px;
+    left: 0;
+    bottom: 0;
+}
+
+.scene {
+	margin: 0 50px;
+}
+
+.container-title {	
+	text-align: center;
+	width: 100%;
+}
+
+.container-title svg {
+	transition: width 1s ease;
+}
+
+.container-apropos h1 {
+	font-size: 28px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 55px;
+	margin: -50px 0 50px 0;
+	text-align: center;
+}
+
+.container-sources, .container-credits {
+	display: inline-flex;
+	align-items: center;
+	padding: 150px 50px;
+	position: relative;
+	width: 90%;
+}
+
+.container-apropos {
+	width: 90%;
+	margin: auto;
+	line-height: 20px;
+	margin-bottom: 50px;
+}
+
+.container-sources div, .container-credits div {
+	width: 45%;
+	line-height: 20px;
+	margin-left: 100px;
+}
+
+.container-sources h1, .container-credits h1 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 55px;
+	min-width: 45%;
+	margin:10px;
+}
+
+.container-sources a, .container-credits a {
+	font-weight: bold;
+	color: white;
+	transition: opacity .5s ease;
+	display: inline;
+}
+
+.container-sources a:hover, .container-credits a:hover {
+	opacity: .5;
+}
+
+.container-sources p {
+	margin: 10px 0;
+}
+
+.scene img {
+	position: absolute;
+}
+
+.container-andromeda {
+	position: absolute;
+    left: 0;
+    top: 32%;
+}
+
+.container-andromeda img {
+	width: 700px;
+}
+
+.container-triangle {
+	position: absolute;
+	left: calc(50% - 250px);
+	bottom: 40%;
+}
+
+.container-triangle img {
+	width: 500px;
+}
+
+/* Pour le responsive : Tablet */
+@media only screen and (max-width: 780px) {
+    .container-title svg {
+    	width: 500px;
+    }
+}

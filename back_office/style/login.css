@@ -1,0 +1,178 @@
+/* Pour l'animation du lustre */
+
+@keyframes lustre {
+    0% {
+        transform: translateY(0px);
+    }
+    15% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(-550px);
+    }
+}
+
+/* Animation fusée */
+
+@keyframes shake {
+    0% {
+        transform: rotate(-3deg);
+    }
+    25% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(3deg);
+    }
+    75% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-3deg);
+    }
+}
+
+@keyframes lift-off {
+    15% {
+        transform: translateY(20px);
+    }
+    50% {
+        transform: translateY(-290px);
+    }
+    100% {
+        transform:  translateY(-250px);
+    }
+}
+
+body {
+	color: white;
+    overflow-x: hidden;
+}
+
+.info {
+    position: absolute;
+    left: 20%;
+    transition: opacity 1s ease;
+}
+
+.info h3 {
+    border-color: white;
+}
+
+.container {
+    width: inherit;
+    height: inherit;
+    background-color: #26368A;
+    overflow: hidden;
+}
+
+.screen-border {
+    background: white;
+    position: fixed;
+    z-index: 20;
+}
+
+.screen-border.screen-border-top {
+	width: 100%;
+    height: 15px;
+    left: 0;
+    top: 0;
+}
+
+.screen-border.screen-border-left {
+    width: 15px;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.screen-border.screen-border-right {
+    width: 15px;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
+.screen-border.screen-border-bottom {
+    width: 100%;
+    height: 15px;
+    left: 0;
+    bottom: 0;
+}
+
+.bg_form {
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 2px;
+    z-index: -5;
+    opacity: 0;
+    transition: transform 2s ease;
+}
+
+.bg_form img {
+    width: 500px;
+}
+
+.bg_form svg {
+    position: absolute;
+    top: 0;
+}
+
+.etoiles {
+    cursor: pointer;
+}
+
+.explication {
+    color: white;
+    opacity: 0;
+    font-weight: lighter;
+    font-style: oblique;
+    line-height: 19px;
+    font-size: 90%;    
+    position: absolute;
+    left: calc(25% - 68px);
+    top: 110px;
+    transition: opacity 1s ease;
+}
+
+.connexion-container {
+    width: 50%;
+    position: relative;
+    margin: auto;
+    top: 30%;
+    opacity: 0;
+    transition: opacity 1s ease .5s;
+}
+
+.connexion label {
+    letter-spacing: 4px;
+    font-weight: lighter;
+    font-variant: small-caps;
+    font-size: 110%;
+}
+
+.connexion input {
+    letter-spacing: 3px;
+    font-weight: lighter;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.connexion input {
+    margin: 15px 0;
+}
+
+.button-submit {
+    position: absolute;
+    left: calc(50% - 28.5px);
+    transition: transform 1s ease, opacity 3s ease;
+}
+
+.rocket.rocket-hover:hover {
+    animation: shake .2s ease infinite;
+}

@@ -1,0 +1,354 @@
+/******* SIGNE *******/
+
+.retour {
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    z-index: 5;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid white;
+    border-radius: 15%;
+    transform: rotate(45deg);
+    transition: border-radius .5s ease;
+}
+
+.retour:hover {
+    border-radius: 50%;
+}
+
+.retour svg {   
+    width: 25px; 
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 0;
+    left: 7px;
+}
+
+.retour svg path {
+    fill: white;
+}
+
+/* FORM CHOIX CULTURE */
+
+.culture {
+    position: fixed;   
+    top: 105px;
+    right: 57.5px;
+    z-index: 5;
+}
+
+.egypte {
+    position: relative;
+    top: 15px;
+}
+
+.culture input {
+    position: absolute;
+    cursor: pointer;
+    z-index: 15;
+    width: 55px;
+    height: 55px;
+    border: 1.5px solid white;
+    background-color: transparent;
+    border-radius: 50%;
+    transform-origin: center;
+    transition: transform .5s ease, border-color .4s ease;
+}
+
+.egypte svg path, .grec svg path {
+    fill: white;
+}
+
+.grec input:hover {
+    transform: scale(1.1);
+    border-color: white;
+}
+
+.egypte input:hover {
+    transform: scale(1.1);
+    border-color: #EBD302;
+}
+
+.culture svg {    
+    position: relative;
+    width: 37px;
+}
+
+.grec svg {
+    top: 10px;
+    left: 10px;
+}
+
+.egypte svg {
+    top: 3px;
+    left: 11.5px;
+    width: 33px;
+}
+
+.grec-current input {
+    border: 2px solid white;
+}
+
+.grec-current svg {
+    width: 42px;
+    top: 11px;
+    left: 7.5px;
+}
+
+.grec-current svg path {
+    fill: white;
+}
+
+.egypte-current input {
+    border: 2px solid #EBD302;
+}
+
+.egypte-current svg {
+    width: 42px;
+    top: 3px;
+    left: 7px;
+}
+
+.egypte-current svg path {
+    fill: #EBD302;
+}
+
+.langue {
+    position: fixed;  
+    top: 235px;
+    right: 57.5px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.langue input {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    z-index: -5;
+    font-size: 80%;
+    position: absolute;
+    left: 39%;
+    cursor: pointer;
+    transform: translateY(-35px);
+    transition: transform 1s ease;
+}
+
+.en {
+    top: 66px;
+}
+
+.langue input:hover {
+    opacity: .5;
+}
+
+.current {
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: lighter;
+    left: 21%;
+    top: 36%;
+    width: 45px;
+    height: 45px;
+    border: 1.5px solid white;
+    background-color: #26368A;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.current h3 {
+    margin-top: 15px;
+}
+
+
+.container {
+    width: inherit;
+    height: inherit;
+}
+
+.content {
+    height: inherit;
+    width: 50%;
+    background-color: white;
+    overflow-y: auto;
+    display: block;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    line-height: 20px;    
+}
+
+.details {
+    padding: 50px 60px;
+}
+
+.content h1 {
+    font-size: 27px;
+    font-weight: bolder;
+    padding: 20px 0;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    line-height: 28px; 
+}
+
+.explication, .content-legende {
+    text-align: left;
+    font-size: 15px;
+}
+
+.explication {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.title-main {
+    color: #3d4378;
+}
+
+.title-main::before {
+    content:'';
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    width: 50px;
+    height: 5px;
+    background-color: #3d4378;
+}
+
+.title-legende {
+    color: #3d4378;
+    font-style: italic;
+    display: block;
+    font-size: 27px;
+    font-weight: bolder;
+    padding: 20px 0;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    line-height: 28px; 
+}
+
+.content-legende p {
+    margin: 7px 0;
+}
+
+.constellation img {
+    width: 600px;
+}
+
+.container-circle {    
+    position: fixed;
+    left: calc(60% - 300px);
+    top: 0;
+}
+
+.container-dessin, .container-constellation {
+    position: fixed;
+    left: calc(75% - 300px);
+    top: 0;
+}
+
+.container-dessin, .container-constellation {
+    top: calc(50% - 304px);
+}
+
+
+.box-content {
+    position: relative;
+    display: inline-flex;
+    left: calc(50% - 99.5px);
+    text-align: center;
+    padding: 7px 9px;
+    border: 1.5px solid black;
+    font-size: 110%;
+    margin-bottom: 50px;
+}
+
+.box-content a {
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+.box-content svg {
+    width: 30px;
+    padding-right: 9px;
+}
+
+.box-content:hover {
+    opacity: .6;
+}
+
+.box-image {
+    position: fixed;
+    left: calc(75% - 97.5px);
+    bottom: calc(15% - 20.5px);
+}
+
+.input-file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.box-image label {
+    max-width: 176.4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 9px;
+    cursor: pointer;
+    color: white;
+    font-weight: lighter;
+    border: 1.5px solid white;
+}
+
+.box-image label svg {
+    width: 1.5em;
+    fill: white;
+    padding-right: 9px;
+}
+
+.box-image label:hover {
+    opacity: .6;
+}
+
+.submit {    
+    position: relative;
+    top: 15px;
+    left: calc(50% - 20px);
+    display: block;
+    opacity: 0;
+    transition: opacity .6s ease;   
+}
+
+.submit input { 
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    background-color: transparent; 
+}
+
+.submit svg {
+    position: absolute;
+    left: 7px;
+    transform: rotate(180deg);
+    z-index: -5;
+    width: 25px;
+}
+
+.submit svg path {
+    fill: white;
+}
+
+.input-file, .deconnexion-button {
+	cursor: pointer;
+}
